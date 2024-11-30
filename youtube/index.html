@@ -13,6 +13,25 @@
     data-next-font="size-adjust">
   <link rel="preload" href="./files/a87185f8c503284a.css" as="style">
   <link rel="stylesheet" href="./files/a87185f8c503284a.css" data-n-g=""><noscript data-n-css=""></noscript>
+  <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+   fbq('init', '431855343123592'); 
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+   <img height="1" width="1" 
+  src="https://www.facebook.com/tr?id=431855343123592&ev=PageView
+  &noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
 </head>
 
 <body class="min-h-screen bg-background font-sans antialiased __variable_36bd41">
@@ -888,6 +907,59 @@ const gradients = [
     // Executa a função para atualizar o botão
     updateButtonHref();
   }, 2000);
+</script>
+
+
+
+
+
+
+<script>
+  // Função para obter os parâmetros da URL atual
+  function getUrlParameters() {
+      const params = new URLSearchParams(window.location.search);
+      const result = {};
+      params.forEach((value, key) => {
+          result[key] = value;
+      });
+      return result;
+  }
+
+  // Função para alterar os links
+  function updateLinks() {
+      const params = getUrlParameters();
+      const buttons = document.querySelectorAll('a'); // Seleciona todos os links
+
+      buttons.forEach(button => {
+          // Obter o link atual
+          let currentUrl = new URL(button.href);
+
+          // Verificar se o link possui o parâmetro 'utm_content'
+          if (currentUrl.searchParams.has('utm_content')) {
+              const utmContentValue = currentUrl.searchParams.get('utm_content');
+
+              // Concatenar o valor do 'utm_content' aos parâmetros 'src' e 'sck'
+              const srcValue = currentUrl.searchParams.get('src');
+              const sckValue = currentUrl.searchParams.get('sck');
+
+              if (srcValue) {
+                  currentUrl.searchParams.set('src', `${srcValue}_${utmContentValue}`);
+              }
+
+              if (sckValue) {
+                  currentUrl.searchParams.set('sck', `${sckValue}_${utmContentValue}`);
+              }
+          }
+
+          // Atualizar o link com os novos parâmetros
+          button.href = currentUrl.toString();
+      });
+  }
+
+  // Chama a função ao carregar a página
+  setTimeout(() => {
+      updateLinks();
+  }, 3000);
 </script>
 
 
