@@ -242,13 +242,6 @@
             "gradient": "bg-gradient-to-br from-[#D6E9F1] to-[#B9D6E6]",
             "shown": false
         },
-
-
-
-
-        
-    
-        [
             {
                 "hora": 0,
                 "min": 1,
@@ -383,28 +376,7 @@
                 "coment": "So much wisdom here",
                 "gradient": "bg-gradient-to-br from-[#A5F3FC] to-[#60A5FA]",
                 "shown": false
-            }
-        ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        [
-          
+            },
             {
                 "hora": 0,
                 "min": 1,
@@ -611,19 +583,7 @@
                 "coment": "This is so impactful",
                 "gradient": "bg-gradient-to-br from-[#6EE7B7] to-[#3B82F6]",
                 "shown": false
-            }
-        ]
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 2,
@@ -758,17 +718,7 @@
                 "coment": "I’m so glad I joined today",
                 "gradient": "bg-gradient-to-br from-[#FF7A7A] to-[#FF9A9A]",
                 "shown": false
-            }
-        ]
-        
-        
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 3,
@@ -1011,19 +961,7 @@
                 "coment": "Wow, what a message",
                 "gradient": "bg-gradient-to-br from-[#FF7A7A] to-[#FF9A9A]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 4,
@@ -1293,25 +1231,7 @@
                 "coment": "This is so profound",
                 "gradient": "bg-gradient-to-br from-[#FEE2E2] to-[#FECACA]",
                 "shown": false
-            }
-        ]
-        
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 5,
@@ -1581,19 +1501,7 @@
                 "coment": "This is life-changing",
                 "gradient": "bg-gradient-to-br from-[#FF7A7A] to-[#FF9A9A]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 6,
@@ -1863,14 +1771,7 @@
                 "coment": "Feeling inspired right now",
                 "gradient": "bg-gradient-to-br from-[#D6E9F1] to-[#B9D6E6]",
                 "shown": false
-            }
-        ]
-        
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 7,
@@ -2140,22 +2041,7 @@
                 "coment": "I’m so amazed by this",
                 "gradient": "bg-gradient-to-br from-[#D4FC79] to-[#96E6A1]",
                 "shown": false
-            }
-        ]
-        
-
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 7,
@@ -2425,20 +2311,7 @@
                 "coment": "I’m so amazed by this",
                 "gradient": "bg-gradient-to-br from-[#D4FC79] to-[#96E6A1]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 8,
@@ -2708,23 +2581,7 @@
                 "coment": "This changes everything",
                 "gradient": "bg-gradient-to-br from-[#FF7A7A] to-[#FF9A9A]",
                 "shown": false
-            }
-        ]
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 9,
@@ -2994,20 +2851,7 @@
                 "coment": "I feel so connected to this",
                 "gradient": "bg-gradient-to-br from-[#C4E0E5] to-[#9AABAC]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-
-[
+            },
     {
         "hora": 0,
         "min": 10,
@@ -3241,19 +3085,7 @@
         "coment": "This resonates deeply",
         "gradient": "bg-gradient-to-br from-[#D6E9F1] to-[#B9D6E6]",
         "shown": false
-    }]
-   
-
-
-
-
-
-
-
-
-
-
-    [
+    },
         {
             "hora": 0,
             "min": 11,
@@ -3523,24 +3355,7 @@
             "coment": "This feels so true",
             "gradient": "bg-gradient-to-br from-[#D4FC79] to-[#96E6A1]",
             "shown": false
-        }
-    ]
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 12,
@@ -3810,21 +3625,7 @@
             "coment": "This feels so real",
             "gradient": "bg-gradient-to-br from-[#D4FC79] to-[#96E6A1]",
             "shown": false
-        }
-    ]
-    
-
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 13,
@@ -4094,24 +3895,7 @@
             "coment": "This could help so many families",
             "gradient": "bg-gradient-to-br from-[#D4FC79] to-[#96E6A1]",
             "shown": false
-        }
-    ]
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 14,
@@ -4381,27 +4165,7 @@
             "coment": "Healing like this is so rare",
             "gradient": "bg-gradient-to-br from-[#D4FC79] to-[#96E6A1]",
             "shown": false
-        }
-    ]
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 15,
@@ -4671,23 +4435,7 @@
             "coment": "This is faith in action",
             "gradient": "bg-gradient-to-br from-[#D4FC79] to-[#96E6A1]",
             "shown": false
-        }
-    ]
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 16,
@@ -4957,21 +4705,7 @@
             "coment": "This is proof that miracles happen",
             "gradient": "bg-gradient-to-br from-[#FEE2E2] to-[#FECACA]",
             "shown": false
-        }
-    ]
-
-    
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 17,
@@ -5241,22 +4975,7 @@
             "coment": "I’m moved by this family’s strength",
             "gradient": "bg-gradient-to-br from-[#FFB457] to-[#FF705B]",
             "shown": false
-        }
-    ]
-
-    
-
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 18,
@@ -5526,24 +5245,7 @@
             "coment": "Mark’s transformation is proof of faith",
             "gradient": "bg-gradient-to-br from-[#C4E0E5] to-[#9AABAC]",
             "shown": false
-        }
-    ]
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 19,
@@ -5813,24 +5515,7 @@
             "coment": "This message needs to reach everyone",
             "gradient": "bg-gradient-to-br from-[#6EE7B7] to-[#3B82F6]",
             "shown": false
-        }
-    ]
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 20,
@@ -6100,19 +5785,7 @@
             "coment": "This innovation feels divinely inspired",
             "gradient": "bg-gradient-to-br from-[#6EE7B7] to-[#3B82F6]",
             "shown": false
-        }
-    ]
-
-    
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 21,
@@ -6382,19 +6055,7 @@
             "coment": "This app is a game-changer",
             "gradient": "bg-gradient-to-br from-[#6EE7B7] to-[#3B82F6]",
             "shown": false
-        }
-    ]
-
-    
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 22,
@@ -6664,24 +6325,7 @@
             "coment": "I can’t wait to learn more",
             "gradient": "bg-gradient-to-br from-[#FBCFE8] to-[#F9A8D4]",
             "shown": false
-        }
-    ]
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 23,
@@ -6951,25 +6595,7 @@
             "coment": "This is truly revolutionary",
             "gradient": "bg-gradient-to-br from-[#FBCFE8] to-[#F9A8D4]",
             "shown": false
-        }
-    ]
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    [
+        },
         {
             "hora": 0,
             "min": 24,
@@ -7212,28 +6838,7 @@
             "coment": "I love this approach to healing",
             "gradient": "bg-gradient-to-br from-[#FEE2E2] to-[#FECACA]",
             "shown": false
-        }]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        [
+        },
             {
                 "hora": 0,
                 "min": 25,
@@ -7503,27 +7108,7 @@
                 "coment": "I’m so grateful for this app",
                 "gradient": "bg-gradient-to-br from-[#FEE2E2] to-[#FECACA]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 26,
@@ -7793,22 +7378,7 @@
                 "coment": "Grateful to be part of this journey",
                 "gradient": "bg-gradient-to-br from-[#FEE2E2] to-[#FECACA]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 27,
@@ -8078,19 +7648,7 @@
                 "coment": "This is the solution we’ve been waiting for",
                 "gradient": "bg-gradient-to-br from-[#FEE2E2] to-[#FECACA]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 28,
@@ -8333,22 +7891,7 @@
                 "coment": "This app is a blessing for all of us",
                 "gradient": "bg-gradient-to-br from-[#FBCFE8] to-[#F9A8D4]",
                 "shown": false
-            }
-        ]
-        
-
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 29,
@@ -8492,22 +8035,7 @@
                 "coment": "This is the best decision I’ll ever make",
                 "gradient": "bg-gradient-to-br from-[#FF7A7A] to-[#FF9A9A]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 29,
@@ -8642,25 +8170,7 @@
                 "coment": "Such an incredible opportunity",
                 "gradient": "bg-gradient-to-br from-[#FF7A7A] to-[#FF9A9A]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 30,
@@ -8804,13 +8314,7 @@
                 "coment": "A gift like this is priceless",
                 "gradient": "bg-gradient-to-br from-[#FF7A7A] to-[#FF9A9A]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 30,
@@ -8945,22 +8449,7 @@
                 "coment": "This is truly life-changing",
                 "gradient": "bg-gradient-to-br from-[#FBCFE8] to-[#F9A8D4]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 31,
@@ -9104,22 +8593,7 @@
                 "coment": "Imagine a life without inflammation",
                 "gradient": "bg-gradient-to-br from-[#FF7A7A] to-[#FF9A9A]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 31,
@@ -9254,21 +8728,7 @@
                 "coment": "Thank you, Sacred Heal, for this gift",
                 "gradient": "bg-gradient-to-br from-[#FFB457] to-[#FF705B]",
                 "shown": false
-            }
-        ]
-        
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 32,
@@ -9412,23 +8872,7 @@
                 "coment": "Transforming my life starts today",
                 "gradient": "bg-gradient-to-br from-[#FFB457] to-[#FF705B]",
                 "shown": false
-            }
-        ]
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 32,
@@ -9563,19 +9007,7 @@
                 "coment": "This is what I needed to hear",
                 "gradient": "bg-gradient-to-br from-[#FF7A7A] to-[#FF9A9A]",
                 "shown": false
-            }
-        ]
-        
-
-
-
-
-
-
-
-
-
-        [
+            },
             {
                 "hora": 0,
                 "min": 33,
@@ -9719,29 +9151,7 @@
                 "coment": "This app is a true blessing",
                 "gradient": "bg-gradient-to-br from-[#FFB457] to-[#FF705B]",
                 "shown": false
-            }
-        ]
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[
+            },
     {
         "hora": 0,
         "min": 33,
@@ -9876,28 +9286,7 @@
         "coment": "Such a divine opportunity",
         "gradient": "bg-gradient-to-br from-[#FF7A7A] to-[#FF9A9A]",
         "shown": false
-    }
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[
+    },
     {
         "hora": 0,
         "min": 34,
@@ -10041,21 +9430,7 @@
         "coment": "This feels like the right step",
         "gradient": "bg-gradient-to-br from-[#6EE7B7] to-[#3B82F6]",
         "shown": false
-    }
-]
-
-
-
-
-
-
-
-
-
-
-
-
-[
+    },
     {
         "hora": 0,
         "min": 34,
@@ -10154,29 +9529,7 @@
         "coment": "This app is a blessing",
         "gradient": "bg-gradient-to-br from-[#FBCFE8] to-[#F9A8D4]",
         "shown": false
-    }
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[
+    },
     {
         "hora": 0,
         "min": 35,
@@ -10311,25 +9664,7 @@
         "coment": "Feeling divine blessings already",
         "gradient": "bg-gradient-to-br from-[#D4FC79] to-[#96E6A1]",
         "shown": false
-    }
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[
+    },
     {
         "hora": 0,
         "min": 35,
@@ -10374,33 +9709,7 @@
         "coment": "This sounds so peaceful",
         "gradient": "bg-gradient-to-br from-[#FEE2E2] to-[#FECACA]",
         "shown": false
-    }
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[
+    },
     {
         "hora": 0,
         "min": 36,
@@ -10544,23 +9853,7 @@
         "coment": "Feeling inspired to start this journey",
         "gradient": "bg-gradient-to-br from-[#6EE7B7] to-[#3B82F6]",
         "shown": false
-    }
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[
+    },
     {
         "hora": 0,
         "min": 36,
@@ -10695,24 +9988,7 @@
         "coment": "Such a powerful message",
         "gradient": "bg-gradient-to-br from-[#FFB457] to-[#FF705B]",
         "shown": false
-    }
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[
+    },
     {
         "hora": 0,
         "min": 37,
@@ -10964,31 +10240,7 @@
         "coment": "This is exactly what I needed",
         "gradient": "bg-gradient-to-br from-[#FFB457] to-[#FF705B]",
         "shown": false
-    }
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    },
     {
         "hora": 0,
         "min": 2,
