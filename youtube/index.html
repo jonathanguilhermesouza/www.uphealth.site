@@ -754,7 +754,7 @@ const gradients = [
       let alreadyDisplayedKey = "alreadyElsDisplayed" + SECONDS_TO_DISPLAY;
       try {
         alreadyElsDisplayed = localStorage.getItem(alreadyDisplayedKey);
-        if(alreadyDisplayedKey)
+        if(alreadyElsDisplayed)
       {
         document.getElementById('channel-content').style.display = 'none';
       }
