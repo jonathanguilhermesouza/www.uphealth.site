@@ -744,7 +744,7 @@ const gradients = [
         { videoId: "67410ad97d09cb000bc1b090", delayInSeconds: 10, utm: "utm_content=lead2" },
       ];
 
-      let SECONDS_TO_DISPLAY = 5;
+      window.SECONDS_TO_DISPLAY = 5;
       let CLASS_TO_DISPLAY = ".esconder";
 
       let attempts = 0;
@@ -774,6 +774,8 @@ const gradients = [
         elsDisplayed = true;
         elsHiddenList.forEach((e) => (e.style.display = "block"));
         try {
+          console.log('alreadyDisplayedKey');
+          console.log(alreadyDisplayedKey);
           document.getElementById('channel-content').style.display = 'none';
           localStorage.setItem(alreadyDisplayedKey, true);
         } catch (e) {
