@@ -1,261 +1,263 @@
-[{
-    "hora": 0,
-    "min": 0,
-    "seg": 0,
-    "name": "Mark",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#FEC5C5] to-[#F9A8D4]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 1,
-    "name": "Mark",
-    "coment": "I'm amazed by the results with this accelerator!",
-    "gradient": "bg-gradient-to-br from-[#C1E8E4] to-[#9AEBEC]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 2,
-    "name": "colitis",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#F9A8D4] to-[#E2B6F5]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 3,
-    "name": "James",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#D6E9F1] to-[#B9D6E6]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 4,
-    "name": "Lisa",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#F9F5F6] to-[#D6D6D6]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 5,
-    "name": "Lisa",
-    "coment": "I'm amazed by the results with this accelerator!",
-    "gradient": "bg-gradient-to-br from-[#FEE2E2] to-[#F9A8D4]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 6,
-    "name": "Lisa",
-    "coment": "An amazing product!",
-    "gradient": "bg-gradient-to-br from-[#A5F3FC] to-[#60A5FA]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 7,
-    "name": "Arturo",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#D8F2F2] to-[#A4F9F9]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 8,
-    "name": "Todd",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#FBCFE8] to-[#F9A8D4]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 9,
-    "name": "Michael",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#FEC5C5] to-[#F9A8D4]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 10,
-    "name": "Chris",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#FCD34D] to-[#FDBA74]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 11,
-    "name": "Chris",
-    "coment": "An amazing product!",
-    "gradient": "bg-gradient-to-br from-[#EAB0A6] to-[#F4A1A8]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 12,
-    "name": "Robert",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#FAD02E] to-[#F9C74F]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 13,
-    "name": "Jimmy",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#C4E0E5] to-[#9AABAC]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 14,
-    "name": "Jimmy",
-    "coment": "I'm amazed by the results with this accelerator!",
-    "gradient": "bg-gradient-to-br from-[#6EE7B7] to-[#3B82F6]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 15,
-    "name": "Neva",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#C4E0E5] to-[#9AABAC]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 16,
-    "name": "Neva",
-    "coment": "I'm amazed by the results with this accelerator!",
-    "gradient": "bg-gradient-to-br from-[#B9FBC0] to-[#A3D9A0]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 17,
-    "name": "Conrado",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#A7F3D0] to-[#5BDBA8]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 18,
-    "name": "Debby",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#B2F5EA] to-[#81E6D9]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 19,
-    "name": "Corrine",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#EAB0A6] to-[#F4A1A8]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 20,
-    "name": "Corrine",
-    "coment": "I'm amazed by the results with this accelerator!",
-    "gradient": "bg-gradient-to-br from-[#D0F2F1] to-[#A0F1E8]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 21,
-    "name": "Brenda",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#FAD02E] to-[#F9C74F]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 22,
-    "name": "A",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#FCD34D] to-[#FDBA74]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 23,
-    "name": "Kathryn",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#E2E2E2] to-[#C4C4C4]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 24,
-    "name": "Kathryn",
-    "coment": "I'm amazed by the results with this accelerator!",
-    "gradient": "bg-gradient-to-br from-[#C7D2FE] to-[#A5B4FC]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 25,
-    "name": "Thomas",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#FBCFE8] to-[#F9A8D4]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 26,
-    "name": "Sheyla",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#D0B2F1] to-[#B2A2D7]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 27,
-    "name": "Jonathan",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#F1C6E7] to-[#C3A9D1]",
-    "shown": false
-},
-{
-    "hora": 0,
-    "min": 0,
-    "seg": 28,
-    "name": "Jonathan",
-    "coment": "This product really works wonders for me!",
-    "gradient": "bg-gradient-to-br from-[#D6E9F1] to-[#B9D6E6]",
-    "shown": false
-}]
+[
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 0,
+        "name": "Mark",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#FEC5C5] to-[#F9A8D4]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 1,
+        "name": "Mark",
+        "coment": "I'm amazed by the results with this accelerator!",
+        "gradient": "bg-gradient-to-br from-[#C1E8E4] to-[#9AEBEC]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 2,
+        "name": "colitis",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#F9A8D4] to-[#E2B6F5]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 3,
+        "name": "James",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#D6E9F1] to-[#B9D6E6]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 4,
+        "name": "Lisa",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#F9F5F6] to-[#D6D6D6]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 5,
+        "name": "Lisa",
+        "coment": "I'm amazed by the results with this accelerator!",
+        "gradient": "bg-gradient-to-br from-[#FEE2E2] to-[#F9A8D4]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 6,
+        "name": "Lisa",
+        "coment": "An amazing product!",
+        "gradient": "bg-gradient-to-br from-[#A5F3FC] to-[#60A5FA]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 7,
+        "name": "Arturo",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#D8F2F2] to-[#A4F9F9]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 8,
+        "name": "Todd",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#FBCFE8] to-[#F9A8D4]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 9,
+        "name": "Michael",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#FEC5C5] to-[#F9A8D4]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 10,
+        "name": "Chris",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#FCD34D] to-[#FDBA74]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 11,
+        "name": "Chris",
+        "coment": "An amazing product!",
+        "gradient": "bg-gradient-to-br from-[#EAB0A6] to-[#F4A1A8]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 12,
+        "name": "Robert",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#FAD02E] to-[#F9C74F]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 13,
+        "name": "Jimmy",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#C4E0E5] to-[#9AABAC]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 14,
+        "name": "Jimmy",
+        "coment": "I'm amazed by the results with this accelerator!",
+        "gradient": "bg-gradient-to-br from-[#6EE7B7] to-[#3B82F6]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 15,
+        "name": "Neva",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#C4E0E5] to-[#9AABAC]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 16,
+        "name": "Neva",
+        "coment": "I'm amazed by the results with this accelerator!",
+        "gradient": "bg-gradient-to-br from-[#B9FBC0] to-[#A3D9A0]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 17,
+        "name": "Conrado",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#A7F3D0] to-[#5BDBA8]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 18,
+        "name": "Debby",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#B2F5EA] to-[#81E6D9]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 19,
+        "name": "Corrine",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#EAB0A6] to-[#F4A1A8]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 20,
+        "name": "Corrine",
+        "coment": "I'm amazed by the results with this accelerator!",
+        "gradient": "bg-gradient-to-br from-[#D0F2F1] to-[#A0F1E8]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 21,
+        "name": "Brenda",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#FAD02E] to-[#F9C74F]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 22,
+        "name": "A",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#FCD34D] to-[#FDBA74]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 23,
+        "name": "Kathryn",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#E2E2E2] to-[#C4C4C4]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 24,
+        "name": "Kathryn",
+        "coment": "I'm amazed by the results with this accelerator!",
+        "gradient": "bg-gradient-to-br from-[#C7D2FE] to-[#A5B4FC]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 25,
+        "name": "Thomas",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#FBCFE8] to-[#F9A8D4]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 26,
+        "name": "Sheyla",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#D0B2F1] to-[#B2A2D7]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 27,
+        "name": "Jonathan",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#F1C6E7] to-[#C3A9D1]",
+        "shown": false
+    },
+    {
+        "hora": 0,
+        "min": 0,
+        "seg": 28,
+        "name": "Jonathan",
+        "coment": "This product really works wonders for me!",
+        "gradient": "bg-gradient-to-br from-[#D6E9F1] to-[#B9D6E6]",
+        "shown": false
+    }
+]
