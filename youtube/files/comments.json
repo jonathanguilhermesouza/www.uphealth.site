@@ -1,4 +1,4 @@
-{
+[{
     "hora": 0,
     "min": 0,
     "seg": 0,
@@ -258,4 +258,4 @@
     "coment": "This product really works wonders for me!",
     "gradient": "bg-gradient-to-br from-[#D6E9F1] to-[#B9D6E6]",
     "shown": false
-}
+}]
