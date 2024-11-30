@@ -155,7 +155,7 @@
                             children: [(0,
                             a.jsx)("p", {
                                 className: "text-black dark:text-white ml-2 font-bold",
-                                children: "Chat ao vivo"
+                                children: "Live chat"
                             }), (0,
                             a.jsxs)("div", {
                                 className: "flex items-center text-zinc-400 ml-2",
@@ -165,7 +165,7 @@
                                 children: [(0,
                                 a.jsx)("p", {
                                     className: "text-zinc-800 dark:text-zinc-400 flex items-center",
-                                    children: "Mensagens principais"
+                                    children: "Main messages"
                                 }), (0,
                                 a.jsx)(c.Xws, {
                                     size: 12,
@@ -248,7 +248,7 @@
                                     "Enter" === e.key && N()
                                 }
                                 ,
-                                placeholder: "Comentar...",
+                                placeholder: "Comment...",
                                 className: "flex-grow p-2 rounded-lg bg-white border-1 border-zinc-600 text-black dark:bg-zinc-800 dark:text-white"
                             }), (0,
                             a.jsx)(i.A, {
@@ -536,7 +536,7 @@
                                         fontSize: "12px"
                                     },
                                     className: "text-sm text-zinc-400",
-                                    children: "98,6 mil Inscritos"
+                                    children: "98,6 mil Subscribed"
                                 })]
                             }), (0,
                             a.jsxs)(i.A, {
@@ -552,7 +552,7 @@
                                     style: {
                                         marginRight: "8px"
                                     }
-                                }), " ", A ? "Inscrito" : "Inscrever-se"]
+                                }), " ", A ? "Subscribed" : "Subscribe"]
                             })]
                         })]
                     }), (0,
