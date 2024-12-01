@@ -32,6 +32,13 @@
   &noscript=1"/>
   </noscript>
   <!-- End Facebook Pixel Code -->
+
+  <link rel="preload" href="https://scripts.converteai.net/1183f511-c04b-4210-8507-c650000310f5/ab-test/674129b47d09cb000bc1ba1e/player.js" as="script">
+<link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+<link rel="dns-prefetch" href="https://cdn.converteai.net">
+<link rel="dns-prefetch" href="https://scripts.converteai.net">
+<link rel="dns-prefetch" href="https://images.converteai.net">
+<link rel="dns-prefetch" href="https://api.vturb.com.br">
 </head>
 
 <body class="min-h-screen bg-background font-sans antialiased __variable_36bd41">
@@ -965,7 +972,178 @@ const gradients = [
 
 
 
+<script>
+  function moveCTA(container) {
+   const cta = container.querySelector(".smartplay + .smartplayer-call-action");
 
+   if (!cta) return;
+
+   container.parentNode.insertBefore(cta, container.nextSibling);
+  }
+
+  function insertBeforePlayer(instance, prefix) {
+   if(!instance) return;
+
+   const player = instance.mobileContainer || instance.container;
+
+   const container = document.createElement("div");
+
+   container.id = `${prefix}-${instance.options.id}`
+   container.classList.add(prefix);
+
+   player.parentNode.insertBefore(container, player);
+
+   container.appendChild(player);
+
+   return container;
+  }
+
+  function mountContainers() {
+   const instances = window.smartplayer.instances;
+
+   instances.forEach(instance => {
+    const container = insertBeforePlayer(instance, `player-fake-fs`)
+
+    if(!container) return;
+
+    moveCTA(container)
+
+    let firstClick = instance.resume?.inResume === undefined;
+   });
+
+   instances.forEach(instance => insertBeforePlayer(instance, `player-auto-height`));
+  }
+
+  function mountStyles() {
+   const styles = document.createElement("style");
+
+   styles.innerHTML = `
+    .player-fake-fs[data-fullscreen='true'] {
+     display: flex !important;
+     align-items: center !important;
+     background-color: #000 !important;
+     height: 100vh !important;
+     width: 100vw !important;
+     cursor: pointer;
+    }
+
+    .player-fake-fs[data-fullscreen='true'] .player-auto-height .smartplayer-mobile-container {
+     max-width: 100% !important;
+    }
+
+    .player-fake-fs[data-fullscreen='false'] .player-auto-height {
+     width: 100% !important;
+    }
+
+    .player-fake-fs[data-fullscreen='false'] {
+     margin-left: 0 !important;
+    }
+
+    .player-auto-height {
+     margin: 0 auto;
+     width: 100%;
+    }
+   `;
+
+   document.head.appendChild(styles);
+  }
+
+  function adjustXPositionFs() {
+   const currentFs = document.querySelectorAll(".player-fake-fs[data-fullscreen='true']");
+
+   currentFs.forEach(container => {
+    container.style.marginLeft = "0";
+
+    const position = container.getBoundingClientRect()
+
+    if(position.left <= 0) return;
+
+    container.style.marginLeft = `-${position.left}px`;
+   });
+  }
+
+  function changeWidthByHeight() {
+   const containers = document.querySelectorAll(".player-auto-height");
+
+   containers.forEach(container => {
+    const video = container.querySelector("video");
+
+    if (!video) return;
+
+    const aspectRatio = video.clientWidth / video.clientHeight;
+
+    const windowHeight = window.innerHeight;
+    const newWidth = windowHeight * aspectRatio;
+
+    const width = (newWidth / window.innerWidth) * 100;
+
+    container.style.width = `${width >= 100 ? 100 : width}%`;
+   });
+  }
+
+  function scrollToFS(container) {
+   const position = container.getBoundingClientRect();
+
+   window.scrollTo({
+    top: position.top + window.scrollY,
+    left: position.left + window.scrollX,
+   });
+  }
+
+  function toggleFs(id, inFullscreen = false) {
+   const container = document.getElementById(`player-fake-fs-${id}`);
+   if (smartplayer.instances[0].smartAutoPlay || !container) return;
+
+   container.dataset.fullscreen = inFullscreen.toString()
+
+   var el = document.querySelector(".player-fake-fs");
+   var elDistanceToTop = window.pageYOffset + el.getBoundingClientRect().top
+   var html = document.querySelector("html");
+
+   if(!inFullscreen){
+    html.style.marginTop = `${elDistanceToTop}px`;
+   }
+
+   if (inFullscreen) {
+    html.style.marginTop = `-${elDistanceToTop}px`;
+    console.log(el);
+    window.addEventListener("resize", changeWidthByHeight);
+
+    changeWidthByHeight();
+    adjustXPositionFs();
+
+    return scrollToFS(container);
+   }
+
+   window.removeEventListener("resize", changeWidthByHeight);
+  }
+
+  function mountFakeFsEvents() {
+   const instances = window.smartplayer.instances;
+
+   window.addEventListener("resize", adjustXPositionFs);
+
+   instances.forEach(instance => {
+    instance.on("play", () => toggleFs(instance.options.id, true));
+
+    instance.on("pause", () => toggleFs(instance.options.id, false));
+   });
+  }
+
+  function customEvents() {
+   mountContainers();
+   mountStyles();
+   mountFakeFsEvents()
+  }
+
+  function checkPlayerLoaded() {
+   if (window.smartplayer && window.smartplayer.instances) return customEvents()
+
+   return setTimeout(checkPlayerLoaded, 100)
+  }
+
+  window.addEventListener("load", () => checkPlayerLoaded())
+</script>
 
 
 
