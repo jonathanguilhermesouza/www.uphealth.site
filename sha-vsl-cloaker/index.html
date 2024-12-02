@@ -1041,35 +1041,57 @@
     </script>
 
 
-    <script>
-        // Função para carregar o conteúdo de uma página no elemento alvo
-        function loadContent(url, targetId) {
-            fetch(url)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! Status: ${response.status}`);
+<script>
+    // Função para carregar conteúdo com execução de scripts
+    function loadContentWithScripts(url, targetId) {
+        fetch(url)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.text();
+            })
+            .then(html => {
+                const targetElement = document.getElementById(targetId);
+                
+                // Criar um elemento DOM temporário para processar scripts
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = html;
+
+                // Mover o conteúdo principal para o destino
+                targetElement.innerHTML = tempDiv.innerHTML;
+
+                // Executar os scripts
+                const scripts = tempDiv.querySelectorAll('script');
+                scripts.forEach(script => {
+                    const newScript = document.createElement('script');
+                    if (script.src) {
+                        // Copiar o atributo `src` para carregar scripts externos
+                        newScript.src = script.src;
+                        newScript.async = script.async;
+                    } else {
+                        // Copiar e executar o código inline
+                        newScript.textContent = script.textContent;
                     }
-                    return response.text();
-                })
-                .then(html => {
-                    document.getElementById(targetId).innerHTML = html;
-                })
-                .catch(error => {
-                    console.error('Erro ao carregar a página:', error);
+                    document.head.appendChild(newScript);
                 });
-        }
+            })
+            .catch(error => {
+                console.error('Erro ao carregar a página:', error);
+            });
+    }
 
-        // Verificar o parâmetro 'offer' na URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const hasOffer = urlParams.has('offer');
+    // Verificar o parâmetro 'offer' na URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const hasOffer = urlParams.has('offer');
 
-        // Carregar a página correspondente
-        if (hasOffer) {
-            loadContent('offer.html', 'offer');
-        } else {
-            loadContent('no-offer.html', 'offer');
-        }
-    </script>
+    // Carregar a página correspondente
+    if (hasOffer) {
+        loadContentWithScripts('offer.html', 'offer');
+    } else {
+        loadContentWithScripts('no-offer.html', 'offer');
+    }
+</script>
 
     <script src="js/LMLhYb0209305.js" charset="utf-8" id="atomicat-js"></script>
 
