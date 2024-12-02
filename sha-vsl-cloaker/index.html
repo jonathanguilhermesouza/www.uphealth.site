@@ -1081,17 +1081,113 @@
             });
     }
 
+
+
+
+
+
+
+
+    // Substitua 'YOUR_API_KEY' pela sua chave de API do ProxyCheck.io
+    const apiKey = "52q946-343e21-10n74y-g8w00z";
+    const baseUrl = "https://proxycheck.io/v2/";
+
+    // Função principal para verificar o IP e filtrar os dados
+    async function checkAndFilterIp() {
+        try {
+            // Monta a URL para verificar o IP do cliente
+            const url = `${baseUrl}?key=${apiKey}&vpn=1&asn=1&risk=1&country=1`;
+
+            // Faz a requisição usando fetch
+            const response = await fetch(url);
+
+            // Verifica se a resposta foi bem-sucedida
+            if (!response.ok) {
+                throw new Error(`Erro na requisição: ${response.statusText}`);
+            }
+
+            // Converte a resposta em JSON
+            const data = await response.json();
+
+            // Obtém o IP automaticamente do JSON retornado (exemplo: data['your_ip'])
+            const clientIp = Object.keys(data)[0];
+            const ipData = data[clientIp];
+
+            // Valida o país e os tipos de IP
+            const isUsa = ipData.country === "US";
+            const isProxy = ipData.proxy === "yes";
+            const isVpn = ipData.vpn === "yes";
+
+            // Lógica do filtro
+            const offer = isUsa && !isProxy && !isVpn;
+
+            // Chama a função renderPage com o parâmetro offer
+            renderPage(offer);
+        } catch (error) {
+            console.error("Erro ao verificar proxy:", error);
+        }
+    }
+
+    // Função renderPage para renderizar a página com base no parâmetro 'offer'
+    function renderPage(offer) {
+        if (offer) {
+            loadContentWithScripts('offer.html', 'offer');
+            //console.log("Página renderizada com oferta: TRUE");
+        } else {
+            loadContentWithScripts('no-offer.html', 'offer');
+            //console.log("Página renderizada com oferta: FALSE");
+        }
+    }
+
+    // Chama a função principal
+    checkAndFilterIp();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // Verificar o parâmetro 'offer' na URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const hasOffer = urlParams.has('offer');
+    //const urlParams = new URLSearchParams(window.location.search);
+    //const hasOffer = urlParams.has('offer');
 
     // Carregar a página correspondente
-    if (hasOffer) {
+    /*if (hasOffer) {
         loadContentWithScripts('offer.html', 'offer');
     } else {
         loadContentWithScripts('no-offer.html', 'offer');
-    }
+    }*/
 </script>
+
+
+
+
+
+
+
+
+
+
 
     <script src="js/LMLhYb0209305.js" charset="utf-8" id="atomicat-js"></script>
 
