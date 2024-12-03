@@ -1112,11 +1112,11 @@
             console.log(data);
 
             // Obtém o IP automaticamente do JSON retornado (exemplo: data['your_ip'])
-            const clientIp = Object.keys(data)[0];
+            const clientIp = Object.keys(data)[2];
             const ipData = data[clientIp];
 
             // Valida o país e os tipos de IP
-            const isUsa = ipData.country === "US";
+            const isUsa = ipData.isocode === "US";
             const isProxy = ipData.proxy === "yes";
             const isVpn = ipData.vpn === "yes";
 
