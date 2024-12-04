@@ -14,46 +14,61 @@ async function shouldShowOffer(config) {
         const clientIp = Object.keys(data)[0];
         const ipData = data[clientIp];
 
-        // Verifica país e ASN bloqueado
+        // Verifica país permitido
         const isAllowedCountry = config.allowedCountries.includes(ipData.country);
-        const isBlockedASN = config.blockedASNs.includes(ipData.asn);
+        console.log("isAllowedCountry:", isAllowedCountry);
 
-        // Verifica o tipo de IP
+        // Verifica ASN bloqueado
+        const isBlockedASN = config.blockedASNs.includes(ipData.asn);
+        console.log("isBlockedASN:", isBlockedASN);
+
+        // Verifica o tipo de IP permitido
         const isAllowedIpType = config.allowedIpType.includes(ipData.type);
+        console.log("isAllowedIpType:", isAllowedIpType);
 
         // Verifica palavras bloqueadas em hostname, provider ou organisation
         const fieldsToCheck = [ipData.hostname, ipData.provider, ipData.organisation];
-        const containsBlockedWord = fieldsToCheck.some(field => 
+        const containsBlockedWord = fieldsToCheck.some(field =>
             field && config.blockedWords.some(word => field.toLowerCase().includes(word))
         );
+        console.log("containsBlockedWord:", containsBlockedWord);
 
         // Detecta o tipo de dispositivo usando UAParser.js
         const parser = new UAParser();
         const uaResult = parser.getResult();
         const deviceType = uaResult.device.type || "desktop";
         const isAllowedDevice = config.allowedDevices.includes(deviceType);
+        console.log("isAllowedDevice:", isAllowedDevice);
 
         // Verifica User-Agent para palavras bloqueadas
-        const userAgentBlocked = config.blockedWords.some(word => 
+        const userAgentBlocked = config.blockedWords.some(word =>
             navigator.userAgent.toLowerCase().includes(word)
         );
+        console.log("userAgentBlocked:", userAgentBlocked);
 
-        // Retorna true apenas se todas as condições forem atendidas
-        return (
+        // Verifica se é proxy ou VPN
+        const isVpnOrProxy = ipData.proxy === "yes" || ipData.vpn === "yes";
+        console.log("isVpnOrProxy:", isVpnOrProxy);
+
+        // Resultado final
+        const result = (
             isAllowedCountry &&
             !isBlockedASN &&
             isAllowedIpType &&
             isAllowedDevice &&
             !containsBlockedWord &&
             !userAgentBlocked &&
-            ipData.proxy !== "yes" &&
-            ipData.vpn !== "yes"
+            !isVpnOrProxy
         );
+        console.log("Final Offer Condition (result):", result);
+
+        return result;
     } catch (error) {
         console.error("Erro ao verificar proxy:", error);
         return false;
     }
 }
+
 
 
 
