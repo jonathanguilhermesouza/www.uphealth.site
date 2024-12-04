@@ -15,7 +15,7 @@ async function shouldShowOffer(config) {
         const ipData = data[clientIp];
 
         // Verifica país permitido
-        const isAllowedCountry = config.allowedCountries.includes(ipData.country);
+        const isAllowedCountry = config.allowedCountries.includes(ipData.isocode);
         console.log("isAllowedCountry:", isAllowedCountry);
 
         // Verifica ASN bloqueado
