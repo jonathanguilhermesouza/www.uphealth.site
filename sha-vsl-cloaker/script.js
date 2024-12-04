@@ -11,7 +11,7 @@ async function shouldShowOffer(config) {
         }
 
         const data = await response.json();
-        const clientIp = Object.keys(data)[0];
+        const clientIp = Object.keys(data)[2];
         const ipData = data[clientIp];
 
         console.log('ipData');
