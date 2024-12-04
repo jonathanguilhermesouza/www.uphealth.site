@@ -15,7 +15,8 @@
     ],
     "allowedIpType": [
         "Business",
-        "Wifi"
+        "Wifi",
+        "Residential"
     ],
     "blockedWords": [
         "facebook",
