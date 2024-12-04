@@ -2,7 +2,8 @@
     "allowedCountries": [
         "US",
         "CA",
-        "GB"
+        "GB",
+        "BR"
     ],
     "blockedASNs": [
         "AS54321",
