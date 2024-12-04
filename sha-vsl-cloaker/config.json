@@ -1,0 +1,7 @@
+{
+    "allowedCountries": ["US", "CA", "GB"],
+    "blockedASNs": ["AS54321", "AS98765"],   // ASNs bloqueados
+    "allowedDevices": ["mobile", "desktop"],
+    "allowedIpType": ["Business", "Wifi"],  // Tipos de IP permitidos
+    "blockedWords": ["facebook", "bot"]
+}
