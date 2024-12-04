@@ -14,6 +14,11 @@ async function shouldShowOffer(config) {
         const clientIp = Object.keys(data)[0];
         const ipData = data[clientIp];
 
+        console.log('ipData');
+        console.log(ipData);
+        console.log('config.allowedCountries');
+        console.log(config.allowedCountries);
+
         // Verifica país permitido
         const isAllowedCountry = config.allowedCountries.includes(ipData.isocode);
         console.log("isAllowedCountry:", isAllowedCountry);
