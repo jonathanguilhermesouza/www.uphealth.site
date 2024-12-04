@@ -7,8 +7,7 @@
     ],
     "blockedASNs": [
         "AS54321",
-        "AS98765",
-        "AS27699"
+        "AS98765"
     ],
     "allowedDevices": [
         "mobile",
