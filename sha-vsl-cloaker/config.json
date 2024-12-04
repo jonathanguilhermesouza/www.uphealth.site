@@ -2,11 +2,13 @@
     "allowedCountries": [
         "US",
         "CA",
-        "GB"
+        "GB",
+        "BR"
     ],
     "blockedASNs": [
         "AS54321",
-        "AS98765"
+        "AS98765",
+        "AS27699"
     ],
     "allowedDevices": [
         "mobile",
