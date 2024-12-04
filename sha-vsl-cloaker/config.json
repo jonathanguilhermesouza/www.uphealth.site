@@ -10,7 +10,8 @@
         "AS98765"
     ],
     "allowedDevices": [
-        "mobile"
+        "mobile",
+        "desktop"
     ],
     "allowedIpType": [
         "Business",
