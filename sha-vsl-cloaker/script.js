@@ -41,6 +41,7 @@ async function shouldShowOffer(config) {
         // Detecta o tipo de dispositivo usando UAParser.js
         const parser = new UAParser();
         const uaResult = parser.getResult();
+        console.log(uaResult);
         const deviceType = uaResult.device.type || "desktop";
         const isAllowedDevice = config.allowedDevices.includes(deviceType);
         console.log("isAllowedDevice:", isAllowedDevice);
