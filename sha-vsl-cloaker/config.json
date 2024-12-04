@@ -1,1 +1,23 @@
-{"allowedCountries":["US","CA","GB"],"blockedASNs":["AS54321","AS98765"],"allowedDevices":["mobile","desktop"],"allowedIpType":["Business","Wifi"],"blockedWords":["facebook","bot"]}
+{
+    "allowedCountries": [
+        "US",
+        "CA",
+        "GB"
+    ],
+    "blockedASNs": [
+        "AS54321",
+        "AS98765"
+    ],
+    "allowedDevices": [
+        "mobile",
+        "desktop"
+    ],
+    "allowedIpType": [
+        "Business",
+        "Wifi"
+    ],
+    "blockedWords": [
+        "facebook",
+        "bot"
+    ]
+}
