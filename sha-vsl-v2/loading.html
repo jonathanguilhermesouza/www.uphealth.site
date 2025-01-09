@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        /* Estilo básico do corpo */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        /* Container principal */
+        .loading-container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Spinner centralizado */
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(0, 0, 0, 0.1);
+            border-top: 5px solid #007bff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px; /* Espaço entre spinner e botão */
+        }
+
+        /* Botão para carregar apresentação */
+        .load-button {
+            display: none; /* Inicialmente escondido */
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase; /* Texto em maiúsculas */
+        }
+
+        .load-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Animação de rotação */
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-container">
+        <div class="spinner"></div>
+        <button class="load-button" onclick="refreshPage()">Load Presentation</button>
+    </div>
+
+    <script>
+        // Mostra o botão após 4 segundos
+        setTimeout(() => {
+            document.querySelector(".load-button").style.display = "block";
+        }, 4000);
+
+        // Função para atualizar a página
+        function refreshPage() {
+            location.reload(); // Executa o refresh da página
+        }
+    </script>
+</body>
+</html>

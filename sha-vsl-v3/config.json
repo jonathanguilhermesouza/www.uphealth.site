@@ -1,0 +1,34 @@
+{
+    "ac": [
+        "US",
+        "CA",
+        "BR"
+    ],
+    "basn": [
+        "63293",
+        "54115",
+        "34825",
+        "32934",
+        "149642",
+        "138699"
+    ],
+    "adev": [
+        "mobile",
+        "desktop"
+    ],
+    "aip": [
+        "Business",
+        "Wireless",
+        "Residential"
+    ],
+    "bwor": [
+        "facebook",
+        "bot"
+    ],
+    "chkfb": false,
+    "chkky": false,
+    "kynm": "sacred",
+    "slog": true,
+    "apt": true,
+    "aot": false
+}

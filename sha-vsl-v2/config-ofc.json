@@ -1,0 +1,33 @@
+{
+    "ac": [ /*allow contries*/
+        "US",
+        "CA"
+    ],
+    "basn": [  /*block asn*/
+        "63293", /*facebook*/
+        "54115", /*facebook*/
+        "34825", /*facebook*/
+        "32934", /*facebook*/
+        "149642", /*facebook*/
+        "138699" /*tiktok*/
+    ],
+    "adev": [  /*allow devices*/
+        "mobile",
+        "desktop"
+    ],
+    "aip": [  /*allow ip type*/
+        "Business",
+        "Wifi",
+        "Residential"
+    ],
+    "bwor": [  /*block words*/
+        "facebook",
+        "bot"
+    ],
+    "chkfb": false,  /*check fbclid*/
+    "chkky": false,  /*check key*/
+    "kynm": "jonathan",  /*key name*/
+    "slog": true,  /*show log*/
+    "apt": true,   /*allow para teste url*/
+    "aot": true  /*allow only touch*/
+}
