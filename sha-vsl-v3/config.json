@@ -1,8 +1,7 @@
 {
     "ac": [
         "US",
-        "CA",
-        "BR"
+        "CA"
     ],
     "basn": [
         "63293",
@@ -24,6 +23,11 @@
     "bwor": [
         "facebook",
         "bot"
+    ],
+    "pages": [
+        "p1/index.html",
+        "p2/index.html",
+        "off/index.html"
     ],
     "chkfb": false,
     "chkky": false,
